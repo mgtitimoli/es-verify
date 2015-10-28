@@ -1,0 +1,20 @@
+{
+  "name": "es-verify",
+  "version": "0.1.0",
+  "description": "Verifies specified files to be compliant with given ECMAScript version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mauro Titimoli",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint-plugin-es6-recommended": "^0.1.0",
+    "eslint-plugin-modules": "^1.1.1",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "minimist": "^1.2.0"
+  },
+  "bin": "./bin/index.js"
+}

@@ -1,0 +1,38 @@
+{
+    "ecmaFeatures": {
+        "modules": true
+    },
+    "env": {
+        "browser": true,
+        "node"   : true,
+        "es6"    : true
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+        "modules",
+        "es6-recommended"
+    ],
+    "rules": {
+        "constructor-super"    : 2,
+        "no-class-assign"      : 2,
+        "no-const-assign"      : 2,
+        "no-dupe-class-members": 2,
+        "no-this-before-super" : 2,
+        "no-var"               : 2,
+        "object-shorthand"     : 2,
+        "prefer-arrow-callback": 2,
+        "prefer-const"         : 2,
+        "prefer-reflect"       : 2,
+        "prefer-spread"        : 2,
+        "prefer-template"      : 2,
+        "require-yield"        : 2,
+
+        "es6-recommended/no-arguments" : 2,
+        "es6-recommended/prefer-for-of": 2,
+
+        "modules/no-cjs": 2,
+
+
+        "strict": 0
+    }
+}

@@ -1,0 +1,5 @@
+# Configuration files
+.babelrc
+.envrc
+.eslintrc
+.gitignore
