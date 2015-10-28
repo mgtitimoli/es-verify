@@ -12,5 +12,8 @@ es-verify [OPTION]... [GLOB]...
 
 #### Options
 
--w, --watch
--e, --es-version
+**-w, --watch**
+> Enables watch mode (it will keep watching for file modifications and re-run verification in case of changes)
+
+**-e, --es-version=version**
+> Specifies the ECMAScript version to test against
