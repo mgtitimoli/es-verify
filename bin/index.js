@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var gulp   = require("gulp");
 var eslint = require("gulp-eslint");
 var path   = require("path");
