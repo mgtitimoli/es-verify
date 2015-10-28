@@ -2,7 +2,6 @@
   "name": "es-verify",
   "version": "0.1.0",
   "description": "Verifies specified files to be compliant with given ECMAScript version",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
